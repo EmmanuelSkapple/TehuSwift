@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D773C79420165D450006FEC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D773C79320165D450006FEC9 /* AppDelegate.swift */; };
+		D773C79620165D450006FEC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D773C79520165D450006FEC9 /* ViewController.swift */; };
+		D773C79920165D450006FEC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D773C79720165D450006FEC9 /* Main.storyboard */; };
+		D773C79B20165D450006FEC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D773C79A20165D450006FEC9 /* Assets.xcassets */; };
+		D773C79E20165D450006FEC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D773C79C20165D450006FEC9 /* LaunchScreen.storyboard */; };
+		D773C7A920165D450006FEC9 /* TeuchitlanAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D773C7A820165D450006FEC9 /* TeuchitlanAppTests.swift */; };
+		D773C7B420165D460006FEC9 /* TeuchitlanAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D773C7B320165D460006FEC9 /* TeuchitlanAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D773C7A520165D450006FEC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D773C78820165D440006FEC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D773C78F20165D440006FEC9;
+			remoteInfo = TeuchitlanApp;
+		};
+		D773C7B020165D460006FEC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D773C78820165D440006FEC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D773C78F20165D440006FEC9;
+			remoteInfo = TeuchitlanApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D773C79020165D440006FEC9 /* TeuchitlanApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeuchitlanApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D773C79320165D450006FEC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D773C79520165D450006FEC9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D773C79820165D450006FEC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D773C79A20165D450006FEC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D773C79D20165D450006FEC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D773C79F20165D450006FEC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D773C7A420165D450006FEC9 /* TeuchitlanAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeuchitlanAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D773C7A820165D450006FEC9 /* TeuchitlanAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeuchitlanAppTests.swift; sourceTree = "<group>"; };
+		D773C7AA20165D450006FEC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D773C7AF20165D460006FEC9 /* TeuchitlanAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeuchitlanAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D773C7B320165D460006FEC9 /* TeuchitlanAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeuchitlanAppUITests.swift; sourceTree = "<group>"; };
+		D773C7B520165D460006FEC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D773C78D20165D440006FEC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D773C7A120165D450006FEC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D773C7AC20165D450006FEC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D773C78720165D440006FEC9 = {
+			isa = PBXGroup;
+			children = (
+				D773C79220165D440006FEC9 /* TeuchitlanApp */,
+				D773C7A720165D450006FEC9 /* TeuchitlanAppTests */,
+				D773C7B220165D460006FEC9 /* TeuchitlanAppUITests */,
+				D773C79120165D440006FEC9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D773C79120165D440006FEC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D773C79020165D440006FEC9 /* TeuchitlanApp.app */,
+				D773C7A420165D450006FEC9 /* TeuchitlanAppTests.xctest */,
+				D773C7AF20165D460006FEC9 /* TeuchitlanAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D773C79220165D440006FEC9 /* TeuchitlanApp */ = {
+			isa = PBXGroup;
+			children = (
+				D773C79320165D450006FEC9 /* AppDelegate.swift */,
+				D773C79520165D450006FEC9 /* ViewController.swift */,
+				D773C79720165D450006FEC9 /* Main.storyboard */,
+				D773C79A20165D450006FEC9 /* Assets.xcassets */,
+				D773C79C20165D450006FEC9 /* LaunchScreen.storyboard */,
+				D773C79F20165D450006FEC9 /* Info.plist */,
+			);
+			path = TeuchitlanApp;
+			sourceTree = "<group>";
+		};
+		D773C7A720165D450006FEC9 /* TeuchitlanAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				D773C7A820165D450006FEC9 /* TeuchitlanAppTests.swift */,
+				D773C7AA20165D450006FEC9 /* Info.plist */,
+			);
+			path = TeuchitlanAppTests;
+			sourceTree = "<group>";
+		};
+		D773C7B220165D460006FEC9 /* TeuchitlanAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D773C7B320165D460006FEC9 /* TeuchitlanAppUITests.swift */,
+				D773C7B520165D460006FEC9 /* Info.plist */,
+			);
+			path = TeuchitlanAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D773C78F20165D440006FEC9 /* TeuchitlanApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D773C7B820165D460006FEC9 /* Build configuration list for PBXNativeTarget "TeuchitlanApp" */;
+			buildPhases = (
+				D773C78C20165D440006FEC9 /* Sources */,
+				D773C78D20165D440006FEC9 /* Frameworks */,
+				D773C78E20165D440006FEC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TeuchitlanApp;
+			productName = TeuchitlanApp;
+			productReference = D773C79020165D440006FEC9 /* TeuchitlanApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D773C7A320165D450006FEC9 /* TeuchitlanAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D773C7BB20165D460006FEC9 /* Build configuration list for PBXNativeTarget "TeuchitlanAppTests" */;
+			buildPhases = (
+				D773C7A020165D450006FEC9 /* Sources */,
+				D773C7A120165D450006FEC9 /* Frameworks */,
+				D773C7A220165D450006FEC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D773C7A620165D450006FEC9 /* PBXTargetDependency */,
+			);
+			name = TeuchitlanAppTests;
+			productName = TeuchitlanAppTests;
+			productReference = D773C7A420165D450006FEC9 /* TeuchitlanAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D773C7AE20165D450006FEC9 /* TeuchitlanAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D773C7BE20165D460006FEC9 /* Build configuration list for PBXNativeTarget "TeuchitlanAppUITests" */;
+			buildPhases = (
+				D773C7AB20165D450006FEC9 /* Sources */,
+				D773C7AC20165D450006FEC9 /* Frameworks */,
+				D773C7AD20165D450006FEC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D773C7B120165D460006FEC9 /* PBXTargetDependency */,
+			);
+			name = TeuchitlanAppUITests;
+			productName = TeuchitlanAppUITests;
+			productReference = D773C7AF20165D460006FEC9 /* TeuchitlanAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D773C78820165D440006FEC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Emmanuel Garcia";
+				TargetAttributes = {
+					D773C78F20165D440006FEC9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					D773C7A320165D450006FEC9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D773C78F20165D440006FEC9;
+					};
+					D773C7AE20165D450006FEC9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D773C78F20165D440006FEC9;
+					};
+				};
+			};
+			buildConfigurationList = D773C78B20165D440006FEC9 /* Build configuration list for PBXProject "TeuchitlanApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D773C78720165D440006FEC9;
+			productRefGroup = D773C79120165D440006FEC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D773C78F20165D440006FEC9 /* TeuchitlanApp */,
+				D773C7A320165D450006FEC9 /* TeuchitlanAppTests */,
+				D773C7AE20165D450006FEC9 /* TeuchitlanAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D773C78E20165D440006FEC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D773C79E20165D450006FEC9 /* LaunchScreen.storyboard in Resources */,
+				D773C79B20165D450006FEC9 /* Assets.xcassets in Resources */,
+				D773C79920165D450006FEC9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D773C7A220165D450006FEC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D773C7AD20165D450006FEC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D773C78C20165D440006FEC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D773C79620165D450006FEC9 /* ViewController.swift in Sources */,
+				D773C79420165D450006FEC9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D773C7A020165D450006FEC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D773C7A920165D450006FEC9 /* TeuchitlanAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D773C7AB20165D450006FEC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D773C7B420165D460006FEC9 /* TeuchitlanAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D773C7A620165D450006FEC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D773C78F20165D440006FEC9 /* TeuchitlanApp */;
+			targetProxy = D773C7A520165D450006FEC9 /* PBXContainerItemProxy */;
+		};
+		D773C7B120165D460006FEC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D773C78F20165D440006FEC9 /* TeuchitlanApp */;
+			targetProxy = D773C7B020165D460006FEC9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D773C79720165D450006FEC9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D773C79820165D450006FEC9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D773C79C20165D450006FEC9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D773C79D20165D450006FEC9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D773C7B620165D460006FEC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D773C7B720165D460006FEC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D773C7B920165D460006FEC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TeuchitlanApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Bebat.TeuchitlanApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D773C7BA20165D460006FEC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TeuchitlanApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Bebat.TeuchitlanApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D773C7BC20165D460006FEC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TeuchitlanAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Bebat.TeuchitlanAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TeuchitlanApp.app/TeuchitlanApp";
+			};
+			name = Debug;
+		};
+		D773C7BD20165D460006FEC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TeuchitlanAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Bebat.TeuchitlanAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TeuchitlanApp.app/TeuchitlanApp";
+			};
+			name = Release;
+		};
+		D773C7BF20165D460006FEC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TeuchitlanAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Bebat.TeuchitlanAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TeuchitlanApp;
+			};
+			name = Debug;
+		};
+		D773C7C020165D460006FEC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TeuchitlanAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Bebat.TeuchitlanAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TeuchitlanApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D773C78B20165D440006FEC9 /* Build configuration list for PBXProject "TeuchitlanApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D773C7B620165D460006FEC9 /* Debug */,
+				D773C7B720165D460006FEC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D773C7B820165D460006FEC9 /* Build configuration list for PBXNativeTarget "TeuchitlanApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D773C7B920165D460006FEC9 /* Debug */,
+				D773C7BA20165D460006FEC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D773C7BB20165D460006FEC9 /* Build configuration list for PBXNativeTarget "TeuchitlanAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D773C7BC20165D460006FEC9 /* Debug */,
+				D773C7BD20165D460006FEC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D773C7BE20165D460006FEC9 /* Build configuration list for PBXNativeTarget "TeuchitlanAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D773C7BF20165D460006FEC9 /* Debug */,
+				D773C7C020165D460006FEC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D773C78820165D440006FEC9 /* Project object */;
+}
