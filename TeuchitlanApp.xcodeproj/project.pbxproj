@@ -7,6 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09921399AC5CF9BD0821C218 /* Pods_TeuchitlanApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4393A20BBD1C49C5EB3CD2D3 /* Pods_TeuchitlanApp.framework */; };
+		D74B929B20741BDA00C6007D /* QueHacerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74B929A20741BDA00C6007D /* QueHacerViewController.swift */; };
+		D74B929D207AD0D500C6007D /* myCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74B929C207AD0D400C6007D /* myCell.swift */; };
+		D74B92A7207E45D600C6007D /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74B92A6207E45D600C6007D /* Users.swift */; };
+		D7696AA3208417E900DEEAEC /* 30224008_1857713860965582_191255195_o.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D7696AA2208417E800DEEAEC /* 30224008_1857713860965582_191255195_o.jpg */; };
+		D770F68D20678B19007A16D5 /* QHacer_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = D770F68C20678B16007A16D5 /* QHacer_btn.png */; };
+		D770F68E20678B1A007A16D5 /* QHacer_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = D770F68C20678B16007A16D5 /* QHacer_btn.png */; };
+		D770F68F20678B1A007A16D5 /* QHacer_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = D770F68C20678B16007A16D5 /* QHacer_btn.png */; };
+		D770F69120678E38007A16D5 /* Progreso-btn.png in Resources */ = {isa = PBXBuildFile; fileRef = D770F69020678E38007A16D5 /* Progreso-btn.png */; };
+		D770F69220678E38007A16D5 /* Progreso-btn.png in Resources */ = {isa = PBXBuildFile; fileRef = D770F69020678E38007A16D5 /* Progreso-btn.png */; };
+		D770F69320678E38007A16D5 /* Progreso-btn.png in Resources */ = {isa = PBXBuildFile; fileRef = D770F69020678E38007A16D5 /* Progreso-btn.png */; };
+		D770F69520678E7D007A16D5 /* LActual_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = D770F69420678E7D007A16D5 /* LActual_btn.png */; };
+		D770F69620678E7D007A16D5 /* LActual_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = D770F69420678E7D007A16D5 /* LActual_btn.png */; };
+		D770F69720678E7D007A16D5 /* LActual_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = D770F69420678E7D007A16D5 /* LActual_btn.png */; };
+		D770F69920678E9D007A16D5 /* MProgreso_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = D770F69820678E9C007A16D5 /* MProgreso_btn.png */; };
+		D770F69A20678E9D007A16D5 /* MProgreso_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = D770F69820678E9C007A16D5 /* MProgreso_btn.png */; };
+		D770F69B20678E9D007A16D5 /* MProgreso_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = D770F69820678E9C007A16D5 /* MProgreso_btn.png */; };
+		D770F69D20679269007A16D5 /* Icon Burger Black.png in Resources */ = {isa = PBXBuildFile; fileRef = D770F69C20679269007A16D5 /* Icon Burger Black.png */; };
+		D770F69E20679269007A16D5 /* Icon Burger Black.png in Resources */ = {isa = PBXBuildFile; fileRef = D770F69C20679269007A16D5 /* Icon Burger Black.png */; };
+		D770F69F20679269007A16D5 /* Icon Burger Black.png in Resources */ = {isa = PBXBuildFile; fileRef = D770F69C20679269007A16D5 /* Icon Burger Black.png */; };
+		D770F6A120679566007A16D5 /* Block 1.png in Resources */ = {isa = PBXBuildFile; fileRef = D770F6A020679566007A16D5 /* Block 1.png */; };
+		D770F6A220679566007A16D5 /* Block 1.png in Resources */ = {isa = PBXBuildFile; fileRef = D770F6A020679566007A16D5 /* Block 1.png */; };
+		D770F6A320679566007A16D5 /* Block 1.png in Resources */ = {isa = PBXBuildFile; fileRef = D770F6A020679566007A16D5 /* Block 1.png */; };
 		D773C79420165D450006FEC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D773C79320165D450006FEC9 /* AppDelegate.swift */; };
 		D773C79620165D450006FEC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D773C79520165D450006FEC9 /* ViewController.swift */; };
 		D773C79920165D450006FEC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D773C79720165D450006FEC9 /* Main.storyboard */; };
@@ -14,6 +37,8 @@
 		D773C79E20165D450006FEC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D773C79C20165D450006FEC9 /* LaunchScreen.storyboard */; };
 		D773C7A920165D450006FEC9 /* TeuchitlanAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D773C7A820165D450006FEC9 /* TeuchitlanAppTests.swift */; };
 		D773C7B420165D460006FEC9 /* TeuchitlanAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D773C7B320165D460006FEC9 /* TeuchitlanAppUITests.swift */; };
+		D7AB2EC1206E9F140003D8D6 /* RegistroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AB2EC0206E9F140003D8D6 /* RegistroViewController.swift */; };
+		D7B5ED17206CA9800005475F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D7B5ED16206CA9800005475F /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +59,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4393A20BBD1C49C5EB3CD2D3 /* Pods_TeuchitlanApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TeuchitlanApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47B744C07F282A50827E7CA8 /* Pods-TeuchitlanApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeuchitlanApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TeuchitlanApp/Pods-TeuchitlanApp.debug.xcconfig"; sourceTree = "<group>"; };
+		C5B58E949A42600BCD938A75 /* Pods-TeuchitlanApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeuchitlanApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-TeuchitlanApp/Pods-TeuchitlanApp.release.xcconfig"; sourceTree = "<group>"; };
+		D74B929A20741BDA00C6007D /* QueHacerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueHacerViewController.swift; sourceTree = "<group>"; };
+		D74B929C207AD0D400C6007D /* myCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myCell.swift; sourceTree = "<group>"; };
+		D74B92A6207E45D600C6007D /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		D7696AA2208417E800DEEAEC /* 30224008_1857713860965582_191255195_o.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 30224008_1857713860965582_191255195_o.jpg; path = ../../../Downloads/30224008_1857713860965582_191255195_o.jpg; sourceTree = "<group>"; };
+		D770F68C20678B16007A16D5 /* QHacer_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = QHacer_btn.png; path = ../../QHacer_btn.png; sourceTree = "<group>"; };
+		D770F69020678E38007A16D5 /* Progreso-btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Progreso-btn.png"; path = "../../Progreso-btn.png"; sourceTree = "<group>"; };
+		D770F69420678E7D007A16D5 /* LActual_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LActual_btn.png; path = ../../LActual_btn.png; sourceTree = "<group>"; };
+		D770F69820678E9C007A16D5 /* MProgreso_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = MProgreso_btn.png; path = ../../MProgreso_btn.png; sourceTree = "<group>"; };
+		D770F69C20679269007A16D5 /* Icon Burger Black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon Burger Black.png"; path = "../../NavigationRight/Icon Burger Black.png"; sourceTree = "<group>"; };
+		D770F6A020679566007A16D5 /* Block 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Block 1.png"; path = "../../Block 1.png"; sourceTree = "<group>"; };
 		D773C79020165D440006FEC9 /* TeuchitlanApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeuchitlanApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D773C79320165D450006FEC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D773C79520165D450006FEC9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +85,8 @@
 		D773C7AF20165D460006FEC9 /* TeuchitlanAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeuchitlanAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D773C7B320165D460006FEC9 /* TeuchitlanAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeuchitlanAppUITests.swift; sourceTree = "<group>"; };
 		D773C7B520165D460006FEC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7AB2EC0206E9F140003D8D6 /* RegistroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroViewController.swift; sourceTree = "<group>"; };
+		D7B5ED16206CA9800005475F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09921399AC5CF9BD0821C218 /* Pods_TeuchitlanApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +115,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		312314D36486939151470883 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4393A20BBD1C49C5EB3CD2D3 /* Pods_TeuchitlanApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		47660FDCB26A69A61923E8A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				47B744C07F282A50827E7CA8 /* Pods-TeuchitlanApp.debug.xcconfig */,
+				C5B58E949A42600BCD938A75 /* Pods-TeuchitlanApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D74B92A5207E45AA00C6007D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D74B92A6207E45D600C6007D /* Users.swift */,
+			);
+			name = Model;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		D773C78720165D440006FEC9 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +148,8 @@
 				D773C7A720165D450006FEC9 /* TeuchitlanAppTests */,
 				D773C7B220165D460006FEC9 /* TeuchitlanAppUITests */,
 				D773C79120165D440006FEC9 /* Products */,
+				47660FDCB26A69A61923E8A2 /* Pods */,
+				312314D36486939151470883 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +166,24 @@
 		D773C79220165D440006FEC9 /* TeuchitlanApp */ = {
 			isa = PBXGroup;
 			children = (
+				D74B92A5207E45AA00C6007D /* Model */,
+				D7AB2EC0206E9F140003D8D6 /* RegistroViewController.swift */,
 				D773C79320165D450006FEC9 /* AppDelegate.swift */,
 				D773C79520165D450006FEC9 /* ViewController.swift */,
 				D773C79720165D450006FEC9 /* Main.storyboard */,
+				D74B929C207AD0D400C6007D /* myCell.swift */,
+				D7696AA2208417E800DEEAEC /* 30224008_1857713860965582_191255195_o.jpg */,
+				D74B929A20741BDA00C6007D /* QueHacerViewController.swift */,
+				D770F69420678E7D007A16D5 /* LActual_btn.png */,
+				D770F69C20679269007A16D5 /* Icon Burger Black.png */,
+				D770F6A020679566007A16D5 /* Block 1.png */,
+				D7B5ED16206CA9800005475F /* GoogleService-Info.plist */,
+				D770F69820678E9C007A16D5 /* MProgreso_btn.png */,
+				D770F69020678E38007A16D5 /* Progreso-btn.png */,
 				D773C79A20165D450006FEC9 /* Assets.xcassets */,
 				D773C79C20165D450006FEC9 /* LaunchScreen.storyboard */,
 				D773C79F20165D450006FEC9 /* Info.plist */,
+				D770F68C20678B16007A16D5 /* QHacer_btn.png */,
 			);
 			path = TeuchitlanApp;
 			sourceTree = "<group>";
@@ -132,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D773C7B820165D460006FEC9 /* Build configuration list for PBXNativeTarget "TeuchitlanApp" */;
 			buildPhases = (
+				C7985A7011976B9A547C3B65 /* [CP] Check Pods Manifest.lock */,
 				D773C78C20165D440006FEC9 /* Sources */,
 				D773C78D20165D440006FEC9 /* Frameworks */,
 				D773C78E20165D440006FEC9 /* Resources */,
+				B2C8E51E54DE5945DB598FC7 /* [CP] Embed Pods Frameworks */,
+				DBADE6B49984E87EECE677F1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,6 +278,11 @@
 					D773C78F20165D440006FEC9 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					D773C7A320165D450006FEC9 = {
 						CreatedOnToolsVersion = 9.2;
@@ -232,9 +321,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D770F68D20678B19007A16D5 /* QHacer_btn.png in Resources */,
 				D773C79E20165D450006FEC9 /* LaunchScreen.storyboard in Resources */,
+				D770F69920678E9D007A16D5 /* MProgreso_btn.png in Resources */,
+				D770F6A120679566007A16D5 /* Block 1.png in Resources */,
 				D773C79B20165D450006FEC9 /* Assets.xcassets in Resources */,
+				D770F69520678E7D007A16D5 /* LActual_btn.png in Resources */,
+				D7696AA3208417E900DEEAEC /* 30224008_1857713860965582_191255195_o.jpg in Resources */,
+				D770F69D20679269007A16D5 /* Icon Burger Black.png in Resources */,
+				D7B5ED17206CA9800005475F /* GoogleService-Info.plist in Resources */,
 				D773C79920165D450006FEC9 /* Main.storyboard in Resources */,
+				D770F69120678E38007A16D5 /* Progreso-btn.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +339,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D770F6A220679566007A16D5 /* Block 1.png in Resources */,
+				D770F69620678E7D007A16D5 /* LActual_btn.png in Resources */,
+				D770F69E20679269007A16D5 /* Icon Burger Black.png in Resources */,
+				D770F69A20678E9D007A16D5 /* MProgreso_btn.png in Resources */,
+				D770F68E20678B1A007A16D5 /* QHacer_btn.png in Resources */,
+				D770F69220678E38007A16D5 /* Progreso-btn.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,17 +352,97 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D770F6A320679566007A16D5 /* Block 1.png in Resources */,
+				D770F69720678E7D007A16D5 /* LActual_btn.png in Resources */,
+				D770F69F20679269007A16D5 /* Icon Burger Black.png in Resources */,
+				D770F69B20678E9D007A16D5 /* MProgreso_btn.png in Resources */,
+				D770F68F20678B1A007A16D5 /* QHacer_btn.png in Resources */,
+				D770F69320678E38007A16D5 /* Progreso-btn.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B2C8E51E54DE5945DB598FC7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TeuchitlanApp/Pods-TeuchitlanApp-frameworks.sh",
+				"${PODS_ROOT}/EstimoteBluetoothScanning/EstimoteBluetoothScanning/EstimoteBluetoothScanning.framework",
+				"${PODS_ROOT}/EstimoteProximitySDK/EstimoteProximitySDK/EstimoteProximitySDK.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/Material/Material.framework",
+				"${BUILT_PRODUCTS_DIR}/Motion/Motion.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EstimoteBluetoothScanning.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EstimoteProximitySDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Material.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Motion.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TeuchitlanApp/Pods-TeuchitlanApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7985A7011976B9A547C3B65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TeuchitlanApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBADE6B49984E87EECE677F1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TeuchitlanApp/Pods-TeuchitlanApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D773C78C20165D440006FEC9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D74B929B20741BDA00C6007D /* QueHacerViewController.swift in Sources */,
 				D773C79620165D450006FEC9 /* ViewController.swift in Sources */,
+				D74B929D207AD0D500C6007D /* myCell.swift in Sources */,
+				D7AB2EC1206E9F140003D8D6 /* RegistroViewController.swift in Sources */,
+				D74B92A7207E45D600C6007D /* Users.swift in Sources */,
 				D773C79420165D450006FEC9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,10 +607,14 @@
 		};
 		D773C7B920165D460006FEC9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47B744C07F282A50827E7CA8 /* Pods-TeuchitlanApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WCX4FSQWW4;
+				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = TeuchitlanApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Bebat.TeuchitlanApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -438,10 +625,14 @@
 		};
 		D773C7BA20165D460006FEC9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5B58E949A42600BCD938A75 /* Pods-TeuchitlanApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WCX4FSQWW4;
+				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = TeuchitlanApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Bebat.TeuchitlanApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
